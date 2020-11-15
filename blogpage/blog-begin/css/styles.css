@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:black;
+    color:darkcyan;
+    
+        margin: 0 auto;
+        width:70rem;
+        
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color:indigo;
+    margin: 0;
+}
+
+
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+header{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    /* flex container which is the parent element*/
+}
+.leftheader{
+    flex-basis:40%;
+    /*text-align:justify used for both txt and images because they are in line blocks.this is a flex item*/
+
+text-align:right;
+padding-left: 0.5rem;
+}
+.rightheader{
+    flex-basis:60%;
+    margin-top:3.80rem;
+    padding-right: 0.5rem;
+    
+    
+}
+.rightheader h1{
+    margin:0;
+    color:olivedrab;
+    font-weight: bold;
+    font-size: 2.5rem;;
+}
+.rightheader p{
+    margin:1rem;
+}
+section{
+    border-bottom:2px groove purple ;
+    margin-bottom:0.2rem
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top:2px groove orchid;
+}
+
+
+nav ul{
+    border-top:0px groove violet;
+    border-bottom:0px groove purple;
+    display:flex;
+    justify-content: space-evenly;
+    background-color:violet;
+    margin:1rem;
+    
+    
+}
+nav li{
+    list-style-type: none;
+   
+  
+}
+nav a{
+    color:green;
+}
+nav a:hover{
+    color:firebrick;
+}
+.float{
+    float:left;
+    margin-bottom: 2rem;
+    border-radius:1rem;
+    
+    
+
+}
+
+    .floatright{
+float:left;
+
+margin-bottom: 2rem;
+border-radius: 1rem;
+
+
+    }
+    article:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+
+footer ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+
+}
+footer li{
+    display:inline-block
+}
+
