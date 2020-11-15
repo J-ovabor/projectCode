@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link href="css/styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="form">
+        <h1>Your contact information</h1>
+        <form>
+            <fieldset class="width">
+               <legend> Fill out the following field in order to get back to us</legend>
+               
+                <label for="name"> Name </label>
+               
+                <input type="text" id="name" name="name" placeholder="jessica toner">
+                <label for="phone"> Mobile no.</label>
+                <input type="tel"id="phone" name="phone" placeholder="+23461361482">
+                <label for="email"> Email </label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                
+                <label>
+                    <input type="radio" name="radio" value="me" > Male </label>
+                    <label>
+                        <input type="radio" name="radio" value="me"> Female </label>
+                        <label>
+                            <input type="radio" name="radio" value="me"> Other </label>
+
+
+                <label for="state">State of Origin</label>
+                <select id="state" name="select">
+                    <option> select one</option>
+                    <option value="ondo"> Abia </option>
+                    <option value="ondo"> Adamawa </option>
+                    <option value="ondo"> Akwa-ibom </option>
+                    <option value="ondo"> Benue </option>
+                    <option value="ondo"> Borno </option>
+                    <option value="ondo"> Cross-river </option>
+                    <option value="ondo"> Delta </option>
+                    <option value="ondo"> Ebonyi </option>
+                    <option value="ondo"> Edo </option>
+                    <option value="ondo"> Ekiti </option>
+                    <option value="ondo"> Enugu </option>
+                    <option value="ondo"> Imo </option>
+                    <option value="ondo"> Jigawa </option>
+                    <option value="ondo"> Gombe </option>
+                </select>
+                <label for="comment"> Leave a comment</label>
+                <textarea id="comment" placeholder="was the website helpful" name="comment"> </textarea>
+
+
+            </fieldset>
+            
+            </form>
+            <label for ="submit"> </label>
+
+            <button id = "submit"> submit </button>
+
+
+
+
+            <a href="index.html"> >>previous</a>
+        
+
+            
+
+            
+
+            <footer>follow us </footer>
+          
+        </div>
+        <script src = "html.js">
+  document.getElementById('submit').addEventListener('click' , function(event){
+    alert('thanks for using our site we will get back to you!!'); 
+
+});
+</script>
+
+</body>
+</html>
