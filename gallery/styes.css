@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+
+
+}
+
+
+.gallerie{
+    display:none;
+    max-height: 400px;
+    
+}
+
+.active{
+    display:block;
+}
+.mi-gallerie{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.btns{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+background-color: black;
+color:peru;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+
+padding: 5px;
+border-color: transparent;
+border-radius: 5px;
+cursor: pointer;
+margin: 1.5rem;
+}
+.btn:disabled{
+    background-color: saddlebrown;
+    cursor:not-allowed;
+    color:white;
+}
